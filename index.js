@@ -2,13 +2,15 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const path = require('path');
-const morgan = require('morgan'); // Import morgan
-const app = express();
+const morgan = require('morgan');
 const helmet = require('helmet');
-app.use(helmet());
 const compression = require('compression');
-app.use(compression());
 require('dotenv').config();
+
+const app = express();
+
+app.use(helmet());
+app.use(compression());
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
