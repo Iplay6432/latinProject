@@ -16,11 +16,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.use('/data/photos', express.static(path.join(__dirname, 'data/photos')));
 
-// Create a write stream (in append mode) for logging
-const logStream = fs.createWriteStream(path.join(__dirname, 'access.log'), { flags: 'a' });
-
-// Use morgan for logging to both the console and the file
-app.use(morgan('combined', { stream: logStream }));
+// Use morgan for logging to the console
+app.use(morgan('combined'));
 
 const postsFilePath = path.join(__dirname, 'data', 'posts.json');
 
