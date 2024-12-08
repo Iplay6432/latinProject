@@ -21,6 +21,26 @@ app.use('/data/photos', express.static(path.join(__dirname, 'data/photos')));
 // Use morgan for logging to the console
 app.use(morgan('combined'));
 
+// Basic Authentication Middleware
+const basicAuth = (req, res, next) => {
+  const auth = req.headers['authorization'];
+  if (!auth) {
+    res.setHeader('WWW-Authenticate', 'Basic realm="Restricted Area"');
+    return res.status(401).send('Authentication required.');
+  }
+
+  const [username, password] = Buffer.from(auth.split(' ')[1], 'base64').toString().split(':');
+  if (username === process.env.AUTH_USERNAME && password === process.env.AUTH_PASSWORD) {
+    return next();
+  }
+
+  res.setHeader('WWW-Authenticate', 'Basic realm="Restricted Area"');
+  return res.status(401).send('Authentication required.');
+};
+
+// Apply Basic Authentication Middleware to All Routes
+app.use(basicAuth);
+
 const postsFilePath = path.join(__dirname, 'data', 'posts.json');
 
 const getPosts = () => {
