@@ -4,7 +4,11 @@ const fs = require('fs');
 const path = require('path');
 const morgan = require('morgan'); // Import morgan
 const app = express();
-
+const helmet = require('helmet');
+app.use(helmet());
+const compression = require('compression');
+app.use(compression());
+require('dotenv').config();
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
@@ -34,6 +38,8 @@ app.get('/post/:id', (req, res) => {
   res.render('post', { post: post });
 });
 
-app.listen(3000, () => {
-  console.log('Server is running on port 3000');
+// Use environment variable for port or default to 3000
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
