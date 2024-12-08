@@ -12,6 +12,7 @@ const app = express();
 app.use(helmet());
 app.use(compression());
 app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views')); // Set the views directory
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.use('/data/photos', express.static(path.join(__dirname, 'data/photos')));
