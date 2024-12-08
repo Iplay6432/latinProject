@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= post.title %></title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      overflow: hidden; /* Prevent body from scrolling */
+    }
+
+    h1 {
+      text-align: center;
+      flex: 1;
+    }
+
+    .button {
+      background-color: #ffffff;
+      border: none;
+      color: rgb(0, 0, 0);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .header {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .header h1 {
+      flex: 1;
+      text-align: center;
+    }
+
+    .contain {
+      width: 80%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f4f4f4;
+      text-align: center;
+      overflow-y: auto;
+      overflow-x: hidden;
+      max-height: 80vh; 
+    }
+
+    .container {
+      width: 100%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    .section {
+      margin-bottom: 20px;
+      word-break: break-word;
+      max-width: 70%;
+      text-align: left;
+    }
+
+    .section h2 {
+      cursor: pointer;
+      text-align: left;
+      display: flex;
+      align-items: center;
+    }
+
+    .section h2 .arrow {
+      margin-left: 10px;
+      transition: transform 0.3s;
+    }
+
+    .content {
+      display: none;
+      margin-top: 10px;
+      text-align: left;
+    }
+
+    .content.visible {
+      display: block;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 10px;
+    }
+
+    .view {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .view img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .box {
+      height: 100px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="contain">
+    <div class="header">
+      <button class="button" onclick="window.location.href = '/';">Back</button>
+      <h1><%= post.location %></h1>
+    </div>
+    
+    <div class="container">
+      <div class="section">
+        <h2 onclick="toggleContent('how-to-get-there', this)">How to Get There <span class="arrow">▼</span></h2>
+        <div id="how-to-get-there" class="content visible">
+          <p><%= post.howToGetThere %></p>
+        </div>
+      </div>
+      
+      <div class="section">
+        <h2 onclick="toggleContent('views', this)">Places To See <span class="arrow">▼</span></h2>
+        <div id="views" class="content grid">
+          <% post.views.forEach((view) => { %>
+            <div class="view">
+              <p><%= view.text %></p>
+              <img src="/data/photos/<%= view.image %>" alt="View Image">
+            </div>
+          <% }) %>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 onclick="toggleContent('eat', this)">Where to Eat <span class="arrow">▼</span></h2>
+        <div id="eat" class="content visible">
+          <p><%= post.whereToEat %></p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 onclick="toggleContent('customs', this)">Customs of <%= post.location %> <span class="arrow">▼</span></h2>
+        <div id="customs" class="content visible">
+          <p><%= post.customs %></p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2 onclick="toggleContent('hotel-info', this)">Hotel Information <span class="arrow">▼</span></h2>
+        <div id="hotel-info" class="content visible">
+          <p><%= post.hotelInfo %></p>
+        </div>
+      </div>
+      
+      <div class="section">
+        <h2 onclick="toggleContent('history', this)">History and Fun Facts of <%= post.location %> <span class="arrow">▼</span></h2>
+        <div id="history" class="content visible">
+          <ul>
+            <% post.history.split('\n').forEach((line) => { %>
+              <li><%= line %></li>
+            <% }) %>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script>
+    function toggleView(id, header) {
+      const content = document.getElementById(id);
+      const arrow = header.querySelector('.arrow');
+      if (content.style.display === 'none') {
+        content.style.display = '';
+        arrow.textContent = '  ▼';
+      } else {
+        content.style.display = 'none';
+        arrow.textContent = '  ►';
+      }
+    }
+
+    function toggleContent(id, header) {
+      const content = document.getElementById(id);
+      const arrow = header.querySelector('.arrow');
+      if (content.classList.contains('visible')) {
+        content.classList.remove('visible');
+        arrow.textContent = '  ►';
+      } else {
+        content.classList.add('visible');
+        arrow.textContent = '  ▼';
+      }
+    }
+  </script>
+</body>
+</html>

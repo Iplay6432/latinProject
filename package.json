@@ -1,0 +1,22 @@
+{
+  "name": "latinblog",
+  "version": "1.0.0",
+  "description": "blog travel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "noah",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.1-security",
+    "latinblog": "file:",
+    "mongoose": "^8.8.3",
+    "morgan": "^1.10.0"
+  }
+}

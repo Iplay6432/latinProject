@@ -1,0 +1,138 @@
+[
+  {
+    "id": "1",
+    "title": " My Adventure Begins in Rome!",
+    "date": "",
+    "location": "Rome",
+    "howToGetThere": "Rome was the start of my tour and I did not need to travel to get here but if you live from afar you should take the Via Appia to here or you can take a ship to the port of Ostia and ride to Rome on land.",
+    "views": [
+      {
+        "text": "The Circus Maximus is a hippodrome (a horse race arena) and is the largest one ever built!! It can seat 150 thousand people!! This stadium hosts many events and games, the races are always entertaining. I hope the russata’s will win the next race!",
+        "image": "rome_1.jpg"
+      },
+      {
+        "text": "The Temple of Jupiter Optimus Maximus was a temple honoring the God Jupiter and has been rebuilt multiple times. It’s design was inspired by the Etruscan’s and has many sculptures inside, one being Jupiter driving a chariot.",
+        "image": "rome_2.jpg"
+      },
+      {
+        "text": "The Roman Forum is located between the Palatine and Capitoline hills and has many important buildings and markets. It is used for public meetings, courts, markets, religious ceremonies, temples, and monuments. The Forum is the center of the city of Rome and has a very lively and busy ambience.",
+        "image": "rome_3.jpg"
+      },
+      {
+        "text": "The Temple of Caesar is the final resting place of Caesar made by our Emperor Augustus himself. This temple is also the center for the Cult of caesar. ",
+        "image": "rome_4.jpg"
+      }
+    ],
+    "customs": "Ludi circenses or chariot racing is very intertwined with Roman religion and became an elaborate ritual. The races start with a procession throughout the streets of Rome, in the procession there are many statues of gods, m usicans, and dancers. The procession included the racers and it went through the streets until the Circus Maxmius was reached with the spectators already waiting. There were 12 startings gates with each team ready to start, once a white handkerchief was dropped the gates opened and the race began!",
+    "hotelInfo": "Although there are many hotels in Rome, my favorite one is called Hiltonus, the food they have is very good and the customer service. I once had to stay there long term because my house burned down while Crassus got me to pay him money to put the fire out (he was trying to charge me 230 Denarii or 10 thousand dollars!!!).",
+    "whereToEat": "My favorite breakfast spot in Rome is called Mcdonaldum Breakfastum, it has a wide variety of food options including  egg and cheese sandwich, fruit salad, and toasted bread with honey.",
+    "history": "Romulus founded Rome and this city ____ years ago and he was the sun of the god Mars! \nThe evil man Brutus along with other assassins locked themselves inside the Temple of JUpiter after they killed Caesar\nA lot of the traditions we practice today like Lupercalia came from the Etruscan’s\nOur Emperor Augustus is turning the city of Rome into the best capital imaginable, he is doing this by improving public works, making the water supply better along with other things. ",
+    "mapImage":   "rome_map.webp"
+  },
+  {
+    "id": "2",
+    "title": "The Trading center of Rome, Ostia!!",
+    "date": "",
+    "location": "Ostia",
+    "howToGetThere": "Since Ostia is the port of Rome there were many boats from Rome to Ostia which was great for me because I did not have a lot of time to spend in Ostia. Since Ostia is a major shipping port you can find ships here all across the Roman Empire.",
+    "views": [
+      {
+        "text": "The Forum of Corporations is currently the center trade for the entirety of the Roman Empire!!! There are soooooooo many merchants here, you could buy anything you could imagine like elephants or grain. This Forum is also the home of many guilds which are religious associations that support the food supply of Rome!",
+        "image": "ostia_1.jpg"
+      },
+      {
+        "text": "The Theatre of Ostia which is right next to the forum could hold a max of around 3000 people, while I was there a I got watch a very entertaining play which was a Fabula togata, it was very funny and everyone had lots of laughs!",
+        "image": "ostia_2.jpg"
+      }
+    ],
+    "customs": "Roman theaters  are used for many occasions which included performances for religious festivals, military triumphs, funerals, and temple dedications. They are very important to Roman city life and entertainment. I wonder when I will be able to see more plays.",
+    "hotelInfo": "My stop was quick so I did not get to stay overnight, although I have heard good reviews about the inns in Ostia.",
+    "whereToEat": "In Ostia I ate at a shop where I could take food to go, it was nice because  like many shops it had the menu on the wall. I ate the meatballs and fritters but I personally don’t think it was worth the denarius I spent.",
+    "history": "Ostia was a naval base during the Punic Wars \nDuring the second Punic War it was exempt from conscription to the military \n Ostia was the first colony of the Roman Kingdom",
+    "mapImage":   "ostia_map.png"
+  },
+  {
+    "id": "3",
+    "title": "Gladiators and Capua",
+    "date": "",
+    "location": "Capua",
+    "howToGetThere": "To get to Capua I took the ever most famous Appian Way from Rome (I had to travel back to Rome from Ostia), this journey was around 95 and a half Gallic league or around 212 kilometers. Even though this road was mostly straight and led directly to Capua it took me 3 days to get there!! On the way I got to look at many people’s epitaphs and I got to rest while learning about people who I never knew. ",
+    "views": [
+      {
+        "text": "The Amphitheatre of Capua is currently the largest Amphitheeatre of the Roman Empire!! This amphitheater had space to hold and entertain around 50 thousand people. This amphitheater even has a gladiator school next to it. There are many games held in this amphitheater like gladiator fights, it was truly a spectacle although at times hard to watch, you could hear the excitement of the crowd and the tenston during the fight.",
+        "image": "capua_1.jpg"
+      }
+    ],
+    "customs": "Amphitheaters are a crucial part of Roman city life, they have a high capacity to show spectacles to the people of the Roman Empire. Amphitheaters like the one in Capua are home to many things like venationes, public executions, and gladiatorial contests for festivals. Everyone around the city has something to enjoy!",
+    "hotelInfo": "Since the Amphitheatre of Capua is such a great influence on this city I stayed at a gladiator themed hotel called Gladitus Warus (not to be confused with star wars). The theming of the hotel was great and there was a lot to do.",
+    "whereToEat": "Since Campania is known for its fruits and vegetables I went to the finest vegan restaurant in town, hopefully this food will make me as strong as a gladiator! The restaurant I went too was called Cavae Fructae, the food was so good and had such a great variety",
+    "history": "This city was captured by Rome during the Second Punic War\nIn the Second Punic War it had 34 thousand troops, it was originally loyal to Rome but joined Hannibal's side\nCapua was added to the Via Appia in 312 BC",
+    "mapImage":   "capua_map.webp"
+  },
+  {
+    "id": "4",
+    "title": "The Resort life of Baiae",
+    "date": "",
+    "location": "Baiae",
+    "howToGetThere": "To get to Baiae I also took rheda from Capua which was around 22.5 Gallic leuga or about 50 kilometers, this trek took me about 6 and a half hours but was definitely worth the wait.",
+    "views": [
+      {
+        "text": "In Baiae there is a Temple of Mercury, it is one of the oldest temples and was made in 496 BC, it has great echo in it too!",
+        "image": "baiae_1.jpg"
+      },
+      {
+        "text": "Baiae is a popular resort town for Romans to vacation from the stressful life of the city, Baiae is known for its many thermal baths which are a great way to relax and get comfortable! ",
+        "image": "baiae_2.jpg"
+      }
+    ],
+    "customs": "Although Baiae is a resort city it has its reputation, the guests of Baiae are known to let themselves go wild during their stay. It is known for large feats, drunken fights (some people had a little too much vinum…), and other madness. Although this city can be very fun, some people do very silly things.",
+    "hotelInfo": "Baiae is known for its luscious villas and being an beautiful resort town for the roman elite, thankfully my employer spent top dollar on the most extravagant hotel called Deversorium Optimum, It had hot baths and amazing views of the Tyrrhenum Mare.",
+    "whereToEat": "Since Baiae is a resort town right next to the sea, it only made sense to eat some seafood at Longus Johnus Argentus! The food was great and I got to eat in a thermal bath near the sea.",
+    "history": "Marius, Lucullus, Pompey, and Julius Caesar all went here frequently to relax, it is a very popular tourist destination\nThis city is named after the shipcaption of Odysseus’s ship\nIt is kwon greatly for its pleasure maximizing lifestyle",
+    "mapImage":   "baiae_map.webp"
+  },
+  {
+    "id": "5",
+    "title": "My Big Fat Greek inspired City Tour! (hopefully anyone who is reading this got the reference)",
+    "date": "",
+    "location": "Neapolis",
+    "howToGetThere": "To get here I traveled around 11 Gallic leuga or 25 kilometers from Baiae using a rheda. Surprisingly this only took about 3 and a half hours! I still had plenty of daylight remaining when I reached Neapolis.",
+    "views": [
+      {
+        "text": "The city of Naples has their own version of Olympia called the Neapolitan Isolympic Games started by our own emperor Augustus! There are tons of fun games to watch and enjoy, I wonder who will win in boxing. I have heard rumors that Agustus himself will attend in 14 AD.",
+        "image": "neapolis_1.jpg"
+      }
+    ],
+    "customs": "This city is known to be a flourishing center of Hellenistic culture, and when I visited it did not disappoint! There was a beautiful Greek temple in the city in which animal sacrifices were performed. They also have religious festivals which are basically big feasts (very tasty!!). I wonder if I will ever get to see one of their most famous festivals (which are for athletic competitions) In olympia, the games in Neapolis are great but hopefully one day I will get to see the real deal!. ",
+    "hotelInfo": "During my stay in NeapolisI stayed in the Hellenisitc hotel, as Naples, as stated above, is a flourishing center of Greek culture. This hotel was very nice and had many examples of Greek sculptures and architecture that looked so amazing! The hotel also had Greek plays performed every night, thankfully the speech was translated into latin.",
+    "whereToEat": "The Hotel I stayed at had a Greek inspired restaurant featuring Greek Cuisine, the food was great and the atmosphere was even better!",
+    "history": "Neapolis was founded in 507 BC and its name means “New City”\nNeapolis is a center point for Greek culture\nNeapolis attacked Romans living in Campania during the Second Samnite War, following this in 326 BC it was marched on and besieged by Rome\nIt sided with Marius in 82BC, Pompey in 50 BC, it was very fond in choosing the wrong side\nIt is a resort town for many wealthy Romans and Roman leaders",
+    "mapImage":   "neapolis_map.webp"
+  },
+  {
+    "id": "6",
+    "title": "My last stop at Pompeii, My Iter ends",
+    "date": "",
+    "location": "Pompeii",
+    "howToGetThere": "To get to Pompeii I also took a benna for around 11 Gallic leago which was the same distance between Baiae and Neapolis. I have heard that you could also ride on ships to get to Pompeii but since I was so close it wasnt equitable. Sadly this is my last stop but hopefully in the future I will be able to deliver messages far across the Roman Empire.",
+    "views": [
+      {
+        "text": "When you're at Pompeii it is impossible to not look at the great mountain of Vesuvius. It dominates the background and looks so great. Luckily, I was fortunate enough to be able to hike the mountain and the view was so amazing, it was like I could see all of Italy at once! I wonder what would happen if it perhaps exploded and spread ashes onto Pompeii, how hectic it would be if I was experiencing that.",
+        "image": "pompeii_1.webp"
+      },
+      {
+        "text": "The Temple of Apollo is a beautiful temple with a giant statue of Apollo, a marble altar, and bronze statues. Even though this temple was so old, built in 150 AUC, it still stands tall and powerful today. This temple has Greek and Roman architectural influences, it also has a sundial to represent Apollo's love for the sun and moon.",
+        "image": "pompeii_2.webp"
+      },
+      {
+        "text": "The Temple of Jupiter is another beautiful temple that is used for ceremonies, meetings, and feasts. Jupiter himself protects this city and the Roman Empire in general. This temple was built much earlier than the Temple of Apollo and has a large alter in the front, a podium raised above the forum, and an inner chamber with statues of gods.",
+        "image": "pompeii_3.webp"
+      }
+    ],
+    "customs": "Although Pompeii has many festivals year-around some of the favorites included the Festival of Vulcanalia and the Festival of Diana. The Festival of Vulcanalia honored the god of fire and was celebrated with large bonfires and shrines erected throughout the city, there were also many games held. The festival of Diana was to honor the goddess of the hunt, Diana was also helped in delivery in pregnancy. This festival took three days long and people made offerings of fruit/animals and tied ribbons to trees that were by the river/ocean, and prayers were also written on these ribbons.",
+    "hotelInfo": "Since Pompeii was my last stop I did not have enough time to stay the night, I only had time to deliver my messages, look at a few sites and hop on a boat back to Rome.",
+    "whereToEat": "The city of Pompeii grows a lot of wheat, barley, and millet, so I had to go to their finest bakery called Starbuckum Pistrinum, the sandwiches and the bread there was so great and I have heard that all of the bakeries in Pompeii are amazing!!",
+    "history": "During the useless bloodshed of the Social Wars Sulla besieged this city, you can still see impact craters today\nThis city became an important port for goods traveling to Rome or southern Italy by Sea\nAgustus built many new public buildings in 20 BC",
+    "mapImage":   "pompeii_map.webp"
+  }
+]

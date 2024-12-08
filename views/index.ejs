@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Blog</title>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+  <h1>Ancient Rome Travel Blog!!</h1>
+  <ul>
+    <% posts.forEach((post) => { %>
+      <li class="post-preview">
+        <div class="content">
+          <h2><a href="/post/<%= post.id %>"><%= post.title %></a></h2>
+          <p><em><%= post.date %></em></p>
+          <p>How to get there: <%= post.howToGetThere.substring(0, 81) %>...</p>
+          <p>Customs: <%= post.customs.substring(0, 91) %>...</p>
+          <p>Hotel Info: <%= post.hotelInfo.substring(0, 88) %>...</p>
+          <p>History: <%= post.history.substring(0, 88) %>...</p>
+          <p>Where to Eat: <%= post.whereToEat.substring(0, 88) %>...</p>
+        </div>
+        <img src="/data/photos/<%= post.mapImage %>" alt="Map Image" class="map-image">
+      </li>
+    <% }) %>
+  </ul>
+</body>
+</html>
