@@ -42,3 +42,5 @@
 ::ffff:127.0.0.1 - - [08/Dec/2024:20:46:28 +0000] "GET /post/5 HTTP/1.1" 200 7315 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
 ::ffff:127.0.0.1 - - [08/Dec/2024:20:46:40 +0000] "GET / HTTP/1.1" 304 - "http://localhost:3000/post/5" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
 ::ffff:127.0.0.1 - - [08/Dec/2024:20:46:44 +0000] "GET /post/6 HTTP/1.1" 200 8335 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+::ffff:127.0.0.1 - - [08/Dec/2024:21:20:52 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
+::ffff:127.0.0.1 - - [08/Dec/2024:21:20:53 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0"
