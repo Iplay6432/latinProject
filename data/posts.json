@@ -37,14 +37,14 @@
       "https://www.britannica.com/place/Rome"
     ],
     "textSources":[
-      "penelope.uchicago.edu/encyclopaedia_romana/circusmaximus/circusmaximus.html",
-      "en.wikipedia.org/wiki/Temple_of_Jupiter_Optimus_Maximus",
-      "britannica.com/place/Rome/Administration-and-society#ref23912",
-      "britannica.com/topic/Circus-Maximus",
-      "en.wikipedia.org/wiki/Temple_of_Jupiter_Optimus_Maximus",
-      "britannica.com/topic/Roman-Forum",
-      "en.wikipedia.org/wiki/Temple_of_Caesar",
-      "history.com/news/chariot-racing-ancient-rome"
+      "https://penelope.uchicago.edu/encyclopaedia_romana/circusmaximus/circusmaximus.html",
+      "https://en.wikipedia.org/wiki/Temple_of_Jupiter_Optimus_Maximus",
+      "https://britannica.com/place/Rome/Administration-and-society#ref23912",
+      "https://britannica.com/topic/Circus-Maximus",
+      "https://en.wikipedia.org/wiki/Temple_of_Jupiter_Optimus_Maximus",
+      "https://britannica.com/topic/Roman-Forum",
+      "https://en.wikipedia.org/wiki/Temple_of_Caesar",
+      "https://history.com/news/chariot-racing-ancient-rome"
     ]
   },
   {
@@ -74,11 +74,11 @@
       "http://engineeringrome.org/public-spaces-learning-from-ostia-antica-and-pompei/"
     ],
     "textSources": [
-      "en.wikipedia.org/wiki/Piazzale_delle_Corporazioni",
-      "britannica.com/place/Ostia",
-      "en.wikipedia.org/wiki/Ostia_(Rome)",
-      "whitman.edu/theatre/theatretour/ostia/introduction/ostia.intro2.htm",
-      "metmuseum.org/toah/hd/tham/hd_tham.htm"
+      "https://en.wikipedia.org/wiki/Piazzale_delle_Corporazioni",
+      "https://britannica.com/place/Ostia",
+      "https://en.wikipedia.org/wiki/Ostia_(Rome)",
+      "https://whitman.edu/theatre/theatretour/ostia/introduction/ostia.intro2.htm",
+      "https://metmuseum.org/toah/hd/tham/hd_tham.htm"
     ]
   },
   {
@@ -103,12 +103,12 @@
       "https://www.britannica.com/place/Capua-ancient-city-Italy"
     ], 
     "textSources":[
-     "en.wikipedia.org/wiki/Capua#Archaeological_sites",
-      "britannica.com/place/Capua-ancient-city-Italy",
-      "en.wikipedia.org/wiki/Appian_Way",
-      "amusingplanet.com/2022/09/amphitheater-of-capua-first-roman.html",
-      "metmuseum.org/toah/hd/tham/hd_tham.htm",
-      "britannica.com/place/Campania-region-Italy"
+     "https://en.wikipedia.org/wiki/Capua#Archaeological_sites",
+      "https://britannica.com/place/Capua-ancient-city-Italy",
+      "https://en.wikipedia.org/wiki/Appian_Way",
+      "https://amusingplanet.com/2022/09/amphitheater-of-capua-first-roman.html",
+      "https://metmuseum.org/toah/hd/tham/hd_tham.htm",
+      "https://britannica.com/place/Campania-region-Italy"
     ]
   },
   {
@@ -138,10 +138,10 @@
       "https://www.britannica.com/place/Baiae#ref749607"
     ],
     "textSources":[
-      "en.wikipedia.org/wiki/Baiae",
-      "en.wikipedia.org/wiki/Temple_of_Mercury",
-      "timetravelrome.com/2022/09/04/villa-dellambulatio/",
-      "allthatsinteresting.com/baiae"
+      "https://en.wikipedia.org/wiki/Baiae",
+      "https://en.wikipedia.org/wiki/Temple_of_Mercury",
+      "https://timetravelrome.com/2022/09/04/villa-dellambulatio/",
+      "https://allthatsinteresting.com/baiae"
     ]
   },
   {
@@ -166,8 +166,8 @@
       "https://www.britannica.com/place/Naples-Italy/History#/media/1/402883/148043"
     ],
     "textSources":[
-      "en.wikipedia.org/wiki/History_of_Naples",
-      "britannica.com/place/Naples-Italy/History",
+      "https://en.wikipedia.org/wiki/History_of_Naples",
+      "https://britannica.com/place/Naples-Italy/History",
       "https://www.khanacademy.org/humanities/world-history/ancient-medieval/classical-greece/a/greek-culture",
       "https://www.metmuseum.org/toah/hd/grlg/hd_grlg.htm"
     ]
@@ -204,7 +204,7 @@
       "https://www.britannica.com/place/Pompeii#/media/1/469420/139037"
     ],
     "textSources":[
-      "en.wikipedia.org/wiki/Pompeii",
+      "https://en.wikipedia.org/wiki/Pompeii",
       "https://www.pompeiitours.it/blog/how-did-the-people-of-pompeii-enjoy-themselves/",
       "https://pompeiiarchaeologicalpark.com/the-temple-of-apollo/",
       "https://pompeiiarchaeologicalpark.com/the-temple-of-jupiter-of-pompeii/"
