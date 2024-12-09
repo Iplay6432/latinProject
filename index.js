@@ -17,6 +17,10 @@ app.set('public', path.join(__dirname, 'public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.use('/data/photos', express.static(path.join(__dirname, 'data/photos')));
+app.get('/', (req, res) => {
+  const posts = getPosts();
+  res.render('index', { posts: posts });
+});
 
 // Use morgan for logging to the console
 app.use(morgan('combined'));
