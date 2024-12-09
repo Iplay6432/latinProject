@@ -43,7 +43,7 @@ ul {
 }
 
 .map-image {
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
   border-radius: 5px;
 }
@@ -52,7 +52,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 20px;
   background-color: #fff;
   border: 1px solid #ddd;
