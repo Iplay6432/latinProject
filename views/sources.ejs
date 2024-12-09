@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sources for <%= post.title %></title>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+  <h1>Sources for <%= post.title %></h1>
+  
+  <div class="sources">
+    <h2>Image Sources</h2>
+    <ul>
+      <% post.imageSources.forEach((source) => { %>
+        <li><a href="<%= source %>" target="_blank"><%= source %></a></li>
+      <% }) %>
+    </ul>
+    
+    <h2>Text Sources</h2>
+    <ul>
+      <% post.textSources.forEach((source) => { %>
+        <li><a href="<%= source %>" target="_blank"><%= source %></a></li>
+      <% }) %>
+    </ul>
+  </div>
+
+  <button class="button" onclick="window.location.href = '/post/<%= post.id %>';">Back to Post</button>
+</body>
+</html>

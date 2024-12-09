@@ -27,7 +27,25 @@
     "hotelInfo": "Although there are many hotels in Rome, my favorite one is called Hiltonus, the food they have is very good and the customer service. I once had to stay there long term because my house burned down while Crassus got me to pay him money to put the fire out (he was trying to charge me 230 Denarii or 10 thousand dollars!!!).",
     "whereToEat": "My favorite breakfast spot in Rome is called Mcdonaldum Breakfastum, it has a wide variety of food options including  egg and cheese sandwich, fruit salad, and toasted bread with honey.",
     "history": "Romulus founded Rome and this city ____ years ago and he was the sun of the god Mars! \nThe evil man Brutus along with other assassins locked themselves inside the Temple of JUpiter after they killed Caesar\nA lot of the traditions we practice today like Lupercalia came from the Etruscan’s\nOur Emperor Augustus is turning the city of Rome into the best capital imaginable, he is doing this by improving public works, making the water supply better along with other things. ",
-    "mapImage":   "rome_map.webp"
+    "mapImage":   "rome_map.webp",
+    "imageSources":[
+      "https://www.walksinsiderome.com/tour-attractions/circus-maximus/",
+      "https://commons.wikimedia.org/wiki/File:TempleofCapitoliumRome.jpg#/media/File:TempleofCapitoliumRome.jpg",
+      "https://art.thewalters.org/detail/24230/view-of-the-roman-forum/",
+      "https://commons.wikimedia.org/wiki/File:Temple_of_Caesar_3D.jpg#/media/File:Temple_of_Caesar_3D.jpg",
+      "https://www.deviantart.com/taylor-eos/art/Roman-Era-Messenger-1050158545",
+      "https://www.britannica.com/place/Rome"
+    ],
+    "textSources":[
+      "penelope.uchicago.edu/encyclopaedia_romana/circusmaximus/circusmaximus.html",
+      "en.wikipedia.org/wiki/Temple_of_Jupiter_Optimus_Maximus",
+      "britannica.com/place/Rome/Administration-and-society#ref23912",
+      "britannica.com/topic/Circus-Maximus",
+      "en.wikipedia.org/wiki/Temple_of_Jupiter_Optimus_Maximus",
+      "britannica.com/topic/Roman-Forum",
+      "en.wikipedia.org/wiki/Temple_of_Caesar",
+      "history.com/news/chariot-racing-ancient-rome"
+    ]
   },
   {
     "id": "2",
@@ -49,7 +67,19 @@
     "hotelInfo": "My stop was quick so I did not get to stay overnight, although I have heard good reviews about the inns in Ostia.",
     "whereToEat": "In Ostia I ate at a shop where I could take food to go, it was nice because  like many shops it had the menu on the wall. I ate the meatballs and fritters but I personally don’t think it was worth the denarius I spent.",
     "history": "Ostia was a naval base during the Punic Wars \nDuring the second Punic War it was exempt from conscription to the military \n Ostia was the first colony of the Roman Kingdom",
-    "mapImage":   "ostia_map.png"
+    "mapImage":   "ostia_map.png",
+    "imageSources":[
+      "https://commons.wikimedia.org/wiki/File:Area_archeologica_di_Ostia_Antica_-_panoramio_(36).jpg#/media/File:Area_archeologica_di_Ostia_Antica_-_panoramio_(36).jpg",
+      "https://www.whitman.edu/theatre/theatretour/ostia/ostia.images/large%20images/ostia8.jpg",
+      "http://engineeringrome.org/public-spaces-learning-from-ostia-antica-and-pompei/"
+    ],
+    "textSources": [
+      "en.wikipedia.org/wiki/Piazzale_delle_Corporazioni",
+      "britannica.com/place/Ostia",
+      "en.wikipedia.org/wiki/Ostia_(Rome)",
+      "whitman.edu/theatre/theatretour/ostia/introduction/ostia.intro2.htm",
+      "metmuseum.org/toah/hd/tham/hd_tham.htm"
+    ]
   },
   {
     "id": "3",
@@ -67,7 +97,19 @@
     "hotelInfo": "Since the Amphitheatre of Capua is such a great influence on this city I stayed at a gladiator themed hotel called Gladitus Warus (not to be confused with star wars). The theming of the hotel was great and there was a lot to do.",
     "whereToEat": "Since Campania is known for its fruits and vegetables I went to the finest vegan restaurant in town, hopefully this food will make me as strong as a gladiator! The restaurant I went too was called Cavae Fructae, the food was so good and had such a great variety",
     "history": "This city was captured by Rome during the Second Punic War\nIn the Second Punic War it had 34 thousand troops, it was originally loyal to Rome but joined Hannibal's side\nCapua was added to the Via Appia in 312 BC",
-    "mapImage":   "capua_map.webp"
+    "mapImage":   "capua_map.webp",
+    "imageSources":[
+      "https://visitworldheritage.com/en/eu/amphitheater-campano-santa-maria-capua-vetere/4a0267f3-9c34-4f25-a1a6-528df2787921",
+      "https://www.britannica.com/place/Capua-ancient-city-Italy"
+    ], 
+    "textSources":[
+     "en.wikipedia.org/wiki/Capua#Archaeological_sites",
+      "britannica.com/place/Capua-ancient-city-Italy",
+      "en.wikipedia.org/wiki/Appian_Way",
+      "amusingplanet.com/2022/09/amphitheater-of-capua-first-roman.html",
+      "metmuseum.org/toah/hd/tham/hd_tham.htm",
+      "britannica.com/place/Campania-region-Italy"
+    ]
   },
   {
     "id": "4",
@@ -89,7 +131,18 @@
     "hotelInfo": "Baiae is known for its luscious villas and being an beautiful resort town for the roman elite, thankfully my employer spent top dollar on the most extravagant hotel called Deversorium Optimum, It had hot baths and amazing views of the Tyrrhenum Mare.",
     "whereToEat": "Since Baiae is a resort town right next to the sea, it only made sense to eat some seafood at Longus Johnus Argentus! The food was great and I got to eat in a thermal bath near the sea.",
     "history": "Marius, Lucullus, Pompey, and Julius Caesar all went here frequently to relax, it is a very popular tourist destination\nThis city is named after the shipcaption of Odysseus’s ship\nIt is kwon greatly for its pleasure maximizing lifestyle",
-    "mapImage":   "baiae_map.webp"
+    "mapImage":   "baiae_map.webp",
+    "imageSources":[
+      "http://omeka.wellesley.edu/piranesi-rome/items/show/320",
+      "https://commons.wikimedia.org/wiki/File:Settore_di_Sosandra_20.JPG#/media/File:Settore_di_Sosandra_20.JPG",
+      "https://www.britannica.com/place/Baiae#ref749607"
+    ],
+    "textSources":[
+      "en.wikipedia.org/wiki/Baiae",
+      "en.wikipedia.org/wiki/Temple_of_Mercury",
+      "timetravelrome.com/2022/09/04/villa-dellambulatio/",
+      "allthatsinteresting.com/baiae"
+    ]
   },
   {
     "id": "5",
@@ -107,7 +160,17 @@
     "hotelInfo": "During my stay in NeapolisI stayed in the Hellenisitc hotel, as Naples, as stated above, is a flourishing center of Greek culture. This hotel was very nice and had many examples of Greek sculptures and architecture that looked so amazing! The hotel also had Greek plays performed every night, thankfully the speech was translated into latin.",
     "whereToEat": "The Hotel I stayed at had a Greek inspired restaurant featuring Greek Cuisine, the food was great and the atmosphere was even better!",
     "history": "Neapolis was founded in 507 BC and its name means “New City”\nNeapolis is a center point for Greek culture\nNeapolis attacked Romans living in Campania during the Second Samnite War, following this in 326 BC it was marched on and besieged by Rome\nIt sided with Marius in 82BC, Pompey in 50 BC, it was very fond in choosing the wrong side\nIt is a resort town for many wealthy Romans and Roman leaders",
-    "mapImage":   "neapolis_map.webp"
+    "mapImage":   "neapolis_map.webp",
+    "imageSources":[
+      "http://www.naplesldm.com/isolympic.php",
+      "https://www.britannica.com/place/Naples-Italy/History#/media/1/402883/148043"
+    ],
+    "textSources":[
+      "en.wikipedia.org/wiki/History_of_Naples",
+      "britannica.com/place/Naples-Italy/History",
+      "https://www.khanacademy.org/humanities/world-history/ancient-medieval/classical-greece/a/greek-culture",
+      "https://www.metmuseum.org/toah/hd/grlg/hd_grlg.htm"
+    ]
   },
   {
     "id": "6",
@@ -133,6 +196,18 @@
     "hotelInfo": "Since Pompeii was my last stop I did not have enough time to stay the night, I only had time to deliver my messages, look at a few sites and hop on a boat back to Rome.",
     "whereToEat": "The city of Pompeii grows a lot of wheat, barley, and millet, so I had to go to their finest bakery called Starbuckum Pistrinum, the sandwiches and the bread there was so great and I have heard that all of the bakeries in Pompeii are amazing!!",
     "history": "During the useless bloodshed of the Social Wars Sulla besieged this city, you can still see impact craters today\nThis city became an important port for goods traveling to Rome or southern Italy by Sea\nAgustus built many new public buildings in 20 BC",
-    "mapImage":   "pompeii_map.webp"
+    "mapImage":   "pompeii_map.webp",
+    "imageSources":[
+      "https://www.britannica.com/place/Vesuvius#/media/1/627039/222694",
+      "https://pompeiiarchaeologicalpark.com/the-temple-of-apollo/",
+      "https://pompeiiarchaeologicalpark.com/the-temple-of-jupiter-of-pompeii/",
+      "https://www.britannica.com/place/Pompeii#/media/1/469420/139037"
+    ],
+    "textSources":[
+      "en.wikipedia.org/wiki/Pompeii",
+      "https://www.pompeiitours.it/blog/how-did-the-people-of-pompeii-enjoy-themselves/",
+      "https://pompeiiarchaeologicalpark.com/the-temple-of-apollo/",
+      "https://pompeiiarchaeologicalpark.com/the-temple-of-jupiter-of-pompeii/"
+    ]
   }
 ]

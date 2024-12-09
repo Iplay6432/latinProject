@@ -59,6 +59,12 @@ app.get('/post/:id', (req, res) => {
   res.render('post', { post: post });
 });
 
+app.get('/post/:id/sources', (req, res) => {
+  const posts = getPosts();
+  const post = posts.find(p => p.id === req.params.id);
+  res.render('sources', { post: post });
+});
+
 // Use environment variable for port or default to 3000
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

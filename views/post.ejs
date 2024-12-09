@@ -129,7 +129,7 @@
 <body>
   <div class="contain">
     <div class="header">
-      <!-- <button class="button" onclick="window.location.href = '/';">Back</button> -->
+      <button class="button" onclick="window.location.href = '/';">Back</button>
       <h1><%= post.location %></h1>
     </div>
     
@@ -183,6 +183,11 @@
             <% }) %>
           </ul>
         </div>
+      </div>
+
+      <div class="section">
+        <h2>Sources</h2>
+        <button class="button" onclick="window.location.href = '/post/<%= post.id %>/sources';">View Sources</button>
       </div>
 
     </div>
