@@ -75,3 +75,16 @@ ul {
 .about-me-content h2 {
   margin-top: 0;
 }
+.button {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}

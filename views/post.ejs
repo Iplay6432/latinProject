@@ -23,7 +23,7 @@
 
     .button {
       background-color: #ffffff;
-      border: none;
+      border: 1px solid #ddd;
       color: rgb(0, 0, 0);
       padding: 15px 32px;
       text-align: center;
@@ -187,7 +187,7 @@
 
       <div class="section">
         <h2>Sources</h2>
-        <button class="button" onclick="window.location.href = '/post/<%= post.id %>/sources';">View Sources</button>
+        <a href="/post/<%= post.id %>/sources" class="button">View Sources</a>
       </div>
 
     </div>
